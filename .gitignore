@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+tracker.db
+test_tracker.db
+.env
+node_modules/
+.next/
+out/
+dist/
+*.log

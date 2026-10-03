@@ -1,0 +1,10 @@
+venv/
+.git/
+node_modules/
+frontend/.next/
+frontend/node_modules/
+__pycache__/
+*.pyc
+tracker.db
+test_tracker.db
+dashboard.html
