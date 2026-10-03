@@ -1,11 +1,14 @@
 venv/
 __pycache__/
 *.pyc
-tracker.db
-test_tracker.db
+*.db
 .env
+.env.local
 node_modules/
 .next/
 out/
 dist/
 *.log
+predictions_output.csv
+feature_importance.csv
+dashboard.html

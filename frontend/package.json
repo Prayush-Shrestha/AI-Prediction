@@ -1,15 +1,10 @@
 {
-<<<<<<< HEAD
   "name": "nepse-tracker-frontend",
-=======
-  "name": "nepse-dashboard",
->>>>>>> f5e9b51805a2566ea6d964a737941dafcc5eac9b
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-<<<<<<< HEAD
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },
@@ -27,19 +22,5 @@
     "postcss": "8.4.39",
     "tailwindcss": "3.4.6",
     "typescript": "5.5.3"
-=======
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.2.35",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "recharts": "^2.12.7"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4"
->>>>>>> f5e9b51805a2566ea6d964a737941dafcc5eac9b
   }
 }
