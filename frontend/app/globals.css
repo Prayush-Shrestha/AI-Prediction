@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 body {
   background: #0b1220;
   color: #f8fafc;
@@ -10,3 +11,28 @@ body {
 * {
   scrollbar-color: #243044 transparent;
 }
+=======
+html, body {
+  background-color: #FAF8F5;
+  color: #1E1B18;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* subtle flash when a price updates, instead of an abrupt jump */
+@keyframes flashUp {
+  0% { background-color: rgba(30, 142, 90, 0.16); }
+  100% { background-color: transparent; }
+}
+@keyframes flashDown {
+  0% { background-color: rgba(193, 59, 59, 0.14); }
+  100% { background-color: transparent; }
+}
+.flash-up { animation: flashUp 1.1s ease-out; }
+.flash-down { animation: flashDown 1.1s ease-out; }
+
+::-webkit-scrollbar { height: 8px; width: 8px; }
+::-webkit-scrollbar-thumb { background: #d8d2c9; border-radius: 8px; }
+>>>>>>> f5e9b51805a2566ea6d964a737941dafcc5eac9b
