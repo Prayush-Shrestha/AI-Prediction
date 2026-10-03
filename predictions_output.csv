@@ -1,11 +1,11 @@
-Symbol,As of,Last Close,Predicted Next Session,Model Confidence,Backtest Accuracy
-ADBL,2026-09-23,425.8,UP,63.0%,45.8%
-CHCL,2026-09-23,293.16,DOWN,65.2%,35.4%
-HBL,2026-09-23,747.74,UP,58.7%,43.8%
-NABIL,2026-09-23,975.69,UP,65.8%,45.8%
-NICA,2026-09-23,574.41,UP,60.7%,52.1%
-NIFRA,2026-09-23,274.05,DOWN,55.8%,56.2%
-NLIC,2026-09-23,1156.9,UP,51.6%,62.5%
-NTC,2026-09-23,803.64,DOWN,62.9%,50.0%
-SHIVM,2026-09-23,473.79,UP,51.0%,52.1%
-UPPER,2026-09-23,341.85,UP,61.6%,37.5%
+Symbol,As of,Last Close,Predicted Next Session,P(UP),Model Confidence,Action (thr=0.55),Backtest Accuracy,Precision,Recall,F1,Baseline Majority,Baseline Momentum,Top Features
+ADBL,2026-09-23,425.8,UP,0.571,57.1%,UP,47.9%,0.50,0.48,0.49,52.1%,62.5%,"ret_5d (0.13), obv_roc_5 (0.11), sma_ratio (0.10)"
+CHCL,2026-09-23,293.16,DOWN,0.356,64.4%,DOWN,37.5%,0.36,0.57,0.44,56.2%,41.7%,"volatility_10 (0.11), rsi_14 (0.11), obv_roc_5 (0.10)"
+HBL,2026-09-23,747.74,UP,0.583,58.3%,UP,41.7%,0.67,0.19,0.30,35.4%,60.4%,"bb_pct_b (0.16), ret_5d (0.12), macd_hist (0.11)"
+NABIL,2026-09-23,975.69,UP,0.609,60.9%,UP,41.7%,0.41,0.59,0.48,45.8%,41.7%,"atr_14_norm (0.18), obv_roc_5 (0.11), ret_5d (0.10)"
+NICA,2026-09-23,574.41,UP,0.655,65.5%,UP,47.9%,0.57,0.30,0.39,56.2%,45.8%,"obv_roc_5 (0.14), atr_14_norm (0.11), bb_pct_b (0.10)"
+NIFRA,2026-09-23,274.05,DOWN,0.401,59.9%,DOWN,50.0%,0.53,0.36,0.43,52.1%,47.9%,"ret_1d (0.12), atr_14_norm (0.10), sma_ratio (0.10)"
+NLIC,2026-09-23,1156.9,UP,0.585,58.5%,UP,54.2%,0.47,0.70,0.56,41.7%,54.2%,"obv_roc_5 (0.13), bb_pct_b (0.11), ret_1d (0.10)"
+NTC,2026-09-23,803.64,DOWN,0.429,57.1%,DOWN,47.9%,0.46,0.52,0.49,52.1%,56.2%,"high_low_spread (0.18), bb_pct_b (0.10), ret_1d (0.10)"
+SHIVM,2026-09-23,473.79,UP,0.574,57.4%,UP,56.2%,0.61,0.54,0.57,45.8%,43.8%,"obv_roc_5 (0.12), vol_change (0.12), volatility_10 (0.11)"
+UPPER,2026-09-23,341.85,UP,0.562,56.2%,UP,37.5%,0.32,0.32,0.32,54.2%,47.9%,"obv_roc_5 (0.13), high_low_spread (0.13), volatility_10 (0.11)"
